@@ -29,7 +29,7 @@
     grid-area: header;
     min-width: 100%;
     background: rgb(168,0,90);
-    background: linear-gradient(90deg, rgb(168, 0, 56) 0%, rgba(75,0,40,1) 100%);
+    background: linear-gradient(90deg, rgb(168, 0, 56) 0%, rgb(54, 0, 29) 100%);
     color: white;
     position: fixed;
     
@@ -114,20 +114,23 @@
 /* FOOTER */
 .contenedor .footer {
     grid-area: footer;
-    font-weight: light;
+    font-weight: lighter;
     text-shadow: 1px 1px 1px rgb(82, 82, 82);
     color: rgb(255, 255, 255);
     padding: 100px;
     /* background: rgb(240,180,40); */
     background: rgb(110,30,130);
-    background: linear-gradient(90deg, rgb(255, 218, 132) 0%, rgba(117,82,0,1) 100%);
-    background: linear-gradient(90deg, rgb(117,32,130) 0%, rgb(44, 8, 49) 100%);
+    background: linear-gradient(90deg, rgb(168, 0, 56) 0%, rgb(54, 0, 29) 100%);
     text-align: center;
     
 }
+.footer a{
+    color: white;
+}
 
 .footer img{
-    max-width: 70px;
+    margin-bottom: 5px;
+    max-width: 90px;
     opacity: 0.5;
 }
 
